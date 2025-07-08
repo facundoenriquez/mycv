@@ -1,0 +1,8 @@
+# Create a new user
+POST http://localhost:3000/auth/signup HTTP/1.1
+content-type: application/json
+
+{
+    "email": "fazt@asd.com",
+    "password": "admin"
+}
